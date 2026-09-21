@@ -4,7 +4,7 @@
 # """ 
 # 1.public n=1000
 # 2.private __bal=22
-# 3.protecte _bal=3222
+# 3.protected _bal=3222
 # """
 
 # class Bankaccont:
