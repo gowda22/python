@@ -3,12 +3,12 @@
 # 1 NAME MANY FROMS
 # """
 # # FUNCTION POLY: same function name works diffrently
-# print(len("python"))
-# print(len([4,34,5,4]))
+print(len("python"))
+print(len([4,34,5,4]))
 
 # #operator poly:- same opetrator behaves diffrently
-# print(10+20)
-# print("hello" + "gowda")
+print(10+20)
+print("hello" + "gowda")
 
 #method overloading:- having multiple methods with same methis name but diff
 # parameter{not supported we archive by default args and variable lenth arg {*args}}
@@ -36,13 +36,13 @@ use super ()
 
 """
 
-class Parent:
-    def fun(self):
-        print(" this is a parent function")
-class Child(Parent):
-    def fun(self):
-        super().fun()
-        print(" this is a child class")
-c1=Child()
-c1.fun()
+# class Parent:
+#     def fun(self):
+#         print(" this is a parent function")
+# class Child(Parent):
+#     def fun(self):
+#         super().fun()
+#         print(" this is a child class")
+# c1=Child()
+# c1.fun()
        

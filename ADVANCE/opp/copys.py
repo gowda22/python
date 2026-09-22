@@ -24,8 +24,8 @@
 
 import copy
 list1 = [10, 20, 30, [40, 50]]
-list2 = copy.deepcopy(list1)
-list2.append(20)
+list2 = copy.copy(list1)
+# list2.append(20)
 list2[3].append(60) # not effect original complte indipendent
 print(list1)
 print(list2)

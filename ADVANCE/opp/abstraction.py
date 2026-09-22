@@ -31,15 +31,39 @@ is indide a patrent class
 # cl=Circle(7)
 # cl.area() 
 
-class Animal:
+# class Animal:
+#     def dog(self):
+#         print("dog bark")
+# class Pets(Animal):
+#     def dog(self):
+#         print("dog eats")
+#         super().dog()
+# cl=Pets()
+# cl.dog()
+
+from abc import ABC,abstractmethod
+class Vehical(ABC):
+    @abstractmethod
+    def start():
+        pass
+class Car(Vehical):
+    def start(self):
+        print("car started")
+        
+        
+c1=Car()
+c1.start()
+
+class Animals:
+    def dog(self):
+        print("dog eat")
+class Pet(Animals):
     def dog(self):
         print("dog bark")
-class Pets(Animal):
-    def dog(self):
-        print("dog eats")
         super().dog()
-cl=Pets()
-cl.dog()
+m1=Pet()
+m1.dog()
+
     
 
 

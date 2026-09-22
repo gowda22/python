@@ -39,16 +39,31 @@
 # b1.depsit(5000)
 
 
+
+
+# class Manager(Employee):
+#     def show_sal(self):
+#         print(self._salry)
+# c1=Employee("alain",100000)
+# c1.show_sal()
+
+
+
+
 #ENCAPSULATION {PROTECTED USE INHERITANCE}
 class Employee:
     def __init__(self,name,sal):
         self.name=name
         self._salry=sal
-class Manager(Employee):
-    def show_sal(self):
-        print(self._salry)
-c1=Manager("alain",100000)
-c1.show_sal()
+
+class Demo(Employee) :
+    def show(self): #b1.name=name soo we use this emp.name=name
+        print(f"name is {self.name}  sal is {self._salry}")
+# b1= Employee("gowda",60000)
+b2=Demo("gowda",50000)
+# b2.show(b1) # to access without inheritate pass obj
+b2.show()
+
 
 
 
