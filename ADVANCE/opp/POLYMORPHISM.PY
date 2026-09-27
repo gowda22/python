@@ -3,12 +3,12 @@
 # 1 NAME MANY FROMS
 # """
 # # FUNCTION POLY: same function name works diffrently
-print(len("python"))
-print(len([4,34,5,4]))
+# print(len("python"))
+# print(len([4,34,5,4]))
 
 # #operator poly:- same opetrator behaves diffrently
-print(10+20)
-print("hello" + "gowda")
+# print(10+20)
+# print("hello" + "gowda")
 
 #method overloading:- having multiple methods with same methis name but diff
 # parameter{not supported we archive by default args and variable lenth arg {*args}}

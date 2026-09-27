@@ -22,13 +22,20 @@
 
 #deep copyy
 
+# import copy
+# list1 = [10, 20, 30, [40, 50]]
+# list2 = copy.copy(list1)
+# # list2.append(20)
+# list2[3].append(60) # not effect original complte indipendent
+# print(list1)
+# print(list2)
 import copy
-list1 = [10, 20, 30, [40, 50]]
-list2 = copy.copy(list1)
-# list2.append(20)
-list2[3].append(60) # not effect original complte indipendent
-print(list1)
-print(list2)
+a=[[10,20],[30,40]]
+b=copy.deepcopy(a)
+
+b[0][0]=100
+print(a)
+print(b)
 
 
 
