@@ -29,12 +29,12 @@
 
 # SCOPES{which variable which position}
 
-# x=20
-# def sam(x):
-#     print(x)
-# sam(10)
-# x+=10
-# print(x)
+x=20
+def sam(x):
+    print(x)
+sam(10)
+x+=10
+print(x)
 
 #LOCAAL variable{inside only}
 # def function():

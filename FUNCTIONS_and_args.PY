@@ -8,6 +8,7 @@
 # # def sub(a,b):
 # #     print(a-b)
 
+
 # # sub(a,b)
 
 # #ARGUMENTS AND PARAMETERS
@@ -65,13 +66,45 @@
 #     print(a,b,args,kwargs)
 # demo(1,2,3,4,5, name="gowda",age=12)
 
-def process(*args):
-    result = []
+# def process(*args):
+#     result = []
 
-    for i in args:
-        if i > 5:
-            result.append(i)
+#     for i in args:
+#         if i > 5:
+#             result.append(i)
 
-    return result
+#     return result
 
-print(process(22, 3, 4, 66, 88))
+# print(process(22, 3, 4, 66, 88))
+
+
+# def fun(**kwarg):
+#     print(kwarg)
+
+# fun(name="gowda",age=22)
+
+# def demo(a,b=0,*args,**kwargs):
+#     print(a,b,args,kwargs)
+
+# demo(1,2,3,4,name="gowda",age=22)
+    
+# def demo(*args,**kwargs):
+#     print(" student name:",args[0])
+#     print("age:",args[1])
+#     print("sname:",args[2])
+#     print("details",kwargs)
+# demo("gowda",22, "fff",course="python",city="banglore")
+
+
+# def add(a,b):
+#     return a+b
+
+# r=add(10,33)
+# print(r)
+
+def demo(**kwarg):
+    print(kwarg)
+
+demo(name="gowda",age=33)
+
+
