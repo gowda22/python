@@ -6,15 +6,15 @@ def greet():
     print("hello")
 # cl=greet()
 
-def my_decorator(func):
-    def wrapper():
-        print("before exe")
-        func()
-        print("after exe")
+# def my_decorator(func):
+#     def wrapper():
+#         print("before exe")
+#         func()
+#         print("after exe")
 
-    return wrapper
-greet1=my_decorator(greet)
-greet1()
+#     return wrapper
+# greet1=my_decorator(greet)
+# greet1()
 
 #WITH DECORATOR
 # def my_decorator(func):
@@ -59,11 +59,12 @@ greet1()
 # print(next(s))
 
 #GENATAROR WITH LOOP
-# def even(n):
-#     for i in range(2,n+1,2):
-#         yield i
-# for j in even(10):
-#     print(j)
+def even(n):
+    for i in range(2,n+1,2):
+        yield i
+for j in even(10):
+    print(j)
+
 
 
     

@@ -44,13 +44,20 @@
 # print(factorial(5))
 
 #exp
-def count(n):
-    if n==0:
-        return 1
+# def count(n):
+#     if n==0:
+#         return 1
     
-    print(n)
-    count(n-1)
-count(5)
+#     print(n)
+#     count(n-1)
+# count(5)
 
 
+# def add(a,b):
+#     return a+b
+# res=add(11,44)
+# print(res)
 
+l1=[12,45,6,7,7,8]
+sor=sorted(l1,key=lambda x:x[0],reverse=True)
+print(sor)
