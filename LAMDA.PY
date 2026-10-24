@@ -58,6 +58,11 @@
 # res=add(11,44)
 # print(res)
 
-l1=[12,45,6,7,7,8]
-sor=sorted(l1,key=lambda x:x[0],reverse=True)
-print(sor)
+# students = [
+#     ("John", 80),
+#     ("Alex", 95),
+#     ("Sam", 70)
+# ]
+
+# result = sorted(students, key=lambda x: x[1])#ACC 
+# # result = sorted(students, key=lambda x: x[1], reverse=True)#DEC

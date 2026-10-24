@@ -72,15 +72,15 @@ print(x)
 # outer()
 
 #NON LACAL KEYWORD [USE IN SUB FUNS]
-def  outer():
-    a=10
-    def inner():
-        nonlocal a
-        a+=10
-        print(a)#20
-    inner()
-    print(a)#20 bcz indei inner it modified
-outer()
+# def  outer():
+#     a=10
+#     def inner():
+#         nonlocal a
+#         a+=10
+#         print(a)#20
+#     inner()
+#     print(a)#20 bcz indei inner it modified
+# outer()
     
 
 

@@ -102,7 +102,7 @@
 # r=add(10,33)
 # print(r)
 
-def demo(**kwarg):
+def demo( **kwarg):
     print(kwarg)
 
 demo(name="gowda",age=33)
