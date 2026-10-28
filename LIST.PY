@@ -14,3 +14,9 @@ x = L.pop(2)
 
 print(L)
 print(x)
+
+
+
+
+#list sorting teck
+

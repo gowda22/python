@@ -1,0 +1,61 @@
+[x] 
+1. Python fundamentals
+
+Python basics, variables, data types, type casting, input/output, operators
+
+
+[ ] 
+2. Strings and collections
+
+Strings, string methods, lists, tuples, sets, dictionaries, indexing and slicing
+
+
+[ ] 
+3. Decision-making and loops
+
+if/elif/else, for, while, range(), break, continue, pass, nested loops, for-else
+
+
+[ ] 
+4. Comprehensions
+
+List comprehension and its conditions
+
+
+[ ] 
+5. Functions
+
+Parameters, arguments, return vs print, *args, **kwargs, lambda, scope, LEGB, global and nonlocal
+
+
+[ ] 
+6. Functional programming
+
+map(), filter(), sorted(), reduce()
+
+
+[ ] 
+7. Recursion
+
+Base case, recursive calls and how recursion works
+
+
+[ ] 
+8. OOP fundamentals
+
+Classes, objects, __init__, self, inheritance, polymorphism, encapsulation, abstraction, super()
+
+
+[ ] 
+9. Error and file handling
+
+Exceptions, try/except/else/finally, raise, file operations and modes
+
+
+[ ] 
+10. Advanced Core Python
+
+Modules, packages, pip, iterators, generators, yield, next(), StopIteration, decorators
+
+
+You can tick sections as you complete them. We'll revise the concepts inside each section, not just mark the section complete.
