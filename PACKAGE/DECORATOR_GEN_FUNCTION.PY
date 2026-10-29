@@ -34,6 +34,7 @@ def greet():
 #     def wrapper(a,b):
 #         if b==0:
 #             return " can not divide"
+
 #         return wrapper
 # @smart_divison
 # def divide(a,b):
@@ -68,8 +69,10 @@ for j in even(10):
 def even(n):
     for i in range(2,n+1,2):
         yield i
-for j in even(10):
+for j in even(10):                      
         print(j)
+
+        
 
 
     
